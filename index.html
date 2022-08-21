@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +13,14 @@
       rel="stylesheet"
     />
 
+    <!-- Tippy.js -->
+    <script src="https://unpkg.com/@popperjs/core@2" defer></script>
+    <script src="https://unpkg.com/tippy.js@6" defer></script>
+
+    <!-- Script -->
+    <script src="./script.js" defer></script>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="./style.css" />
 
     <title>Tippy.js practice - created by lilKriT</title>
@@ -20,21 +29,21 @@
     <section>
       <h1>Tippy.js practice</h1>
       <div class="tooltips">
-        <div>
+        <div data-tippy-content="This is the first column.">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
           repellendus rem dignissimos accusamus assumenda repudiandae hic
           nesciunt amet animi culpa id, rerum veniam? Dignissimos, autem ea et
           veniam iusto aperiam numquam deleniti iste reprehenderit. A id qui
           reiciendis dolor cum?
         </div>
-        <div>
+        <div data-tippy-content="This is the second column.">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
           repellendus rem dignissimos accusamus assumenda repudiandae hic
           nesciunt amet animi culpa id, rerum veniam? Dignissimos, autem ea et
           veniam iusto aperiam numquam deleniti iste reprehenderit. A id qui
           reiciendis dolor cum?
         </div>
-        <div>
+        <div data-tippy-content="This is the third column.">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
           repellendus rem dignissimos accusamus assumenda repudiandae hic
           nesciunt amet animi culpa id, rerum veniam? Dignissimos, autem ea et
