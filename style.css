@@ -5,9 +5,34 @@
 }
 
 body {
+  font-family: "Poppins", sans-serif;
 }
 
 section {
   min-height: 100vh;
   background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+  padding: 5rem;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.tooltips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.tooltips div {
+  width: calc(100% / 3.1);
+  min-width: 300px;
+  background-color: rgb(22 229 232 / 0.3);
+  padding: 1rem;
+  border-radius: 25px;
+  color: #042c2d;
 }
