@@ -25,6 +25,7 @@ h1 {
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 25px;
+  min-height: 150px;
 }
 
 .tooltips div {
@@ -34,4 +35,14 @@ h1 {
   padding: 1rem;
   border-radius: 25px;
   color: #042c2d;
+  text-align: center;
+}
+
+.next-row {
+  margin-top: 25px;
+  width: 100%;
+  background-color: rgb(22 229 232 / 0.3);
+  padding: 1rem;
+  border-radius: 25px;
+  text-align: center;
 }
